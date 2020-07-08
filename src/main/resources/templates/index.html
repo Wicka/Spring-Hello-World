@@ -3,7 +3,21 @@
 <head>
     <title>Spring Boot: Creando contenido Web</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<<<<<<< HEAD
     	
+=======
+<<<<<<< HEAD
+    
+    <style type="text/css">
+		body{
+			padding: 0;
+			margin: 0;		
+		}	
+	
+	</style>
+	
+	
+>>>>>>> f5044f54f0b8d29ec7867d6c07a480b385713ee8
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
 	<script>
@@ -14,13 +28,22 @@
 			$("#boton").click(Pasar);
 			function Pasar(){
 			
+<<<<<<< HEAD
 				var nombre= $("#name3").val();
 			
+=======
+
+				var nombre= $("#name3").val();
+>>>>>>> f5044f54f0b8d29ec7867d6c07a480b385713ee8
 				if(nombre == ""){
 					$("#name3").value="ANONIMO";
 					nombre="ANONIMO"
 				}else{
+<<<<<<< HEAD
 					alert("Hola " + nombre);				}
+=======
+					alert(nombre);				}
+>>>>>>> f5044f54f0b8d29ec7867d6c07a480b385713ee8
 				
 			}
 		}
@@ -28,6 +51,7 @@
 		
 	</script>
 </head>
+<<<<<<< HEAD
 
 <body>
 	<h4>
@@ -53,5 +77,75 @@
 
 	<div id="resultado"></div>
 
+=======
+=======
+</head>
+<<<<<<< HEAD
+>>>>>>> 702a8f233dac8ce68a454f521a61bb536aa5e6d7
+
+<body>
+ <h4>
+	Si quieres un Hola Mundo, pincha 
+<a href="/hola">aqui</a>
+ </h4>
+
+ <h4>
+	Si quieres que te Salude dime tu nombre y enviar
+ </h4>
+
+<<<<<<< HEAD
+<form  action="/holath" method="get" id="form">
+	<input type="text" name="name2">
+	<input type="submit">
+</form>
+
+
+
+ <h4>
+ 	<input type="text" name=name3>
+	Si quieres un saludo con AJAX,
+	<br>
+	 escribe tu nombre y  haz click 
+	 <button id="boton">aqui</button>
+ </h4>
+
+<div id="resultado"></div>
+
+=======
+
+
+<form  action="/holath">
+
+	<input type="text" name="name2">
+=======
+<<<<<<< HEAD
+<body>
+ <h2>
+Si quieres tu saludo, pincha <a href="/hola">aquí</a>
+=======
+
+<body>
+ <h2>
+	Si quieres tu saludo, pincha 
+<a href="/hola">aqui</a>
+>>>>>>> Wicka
+ </h2>
+
+<form action="procesarFormulario2" method="get">
+
+	<input type="text" name="nombreAlumno">
+>>>>>>> f917d0e74dc86d6f3299e06d4c880b5e834323a4
+	<input type="submit">
+
+</form>
+
+
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> f917d0e74dc86d6f3299e06d4c880b5e834323a4
+>>>>>>> 702a8f233dac8ce68a454f521a61bb536aa5e6d7
+>>>>>>> f5044f54f0b8d29ec7867d6c07a480b385713ee8
 </body>
 </html>
